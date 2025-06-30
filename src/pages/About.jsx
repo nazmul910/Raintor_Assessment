@@ -47,7 +47,7 @@ export const About = () =>{
                      dragConstraints={{top: 20, bottom: 20, left: 10, right: 10 }}
                       whileHover={{ scale: 1.1, rotate: 0 }}
                       initial={{ rotate: brand.rotate, y: Math.random() * 20 - 10 }}
-                     className={`lg:px-6 py-2 rounded-full shadow-md cursor-pointer mb-10 lg:mb-0 ${brand.bg}`}
+                     className={`lg:px-6 py-2 rounded-full shadow-md cursor-grab mb-10 lg:mb-0 ${brand.bg}`}
                       style={{ display: "inline-block", minWidth: "120px", textAlign: "center" }}
                     >
                      <img src={brand.url} alt="" />
